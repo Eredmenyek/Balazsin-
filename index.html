@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Balazsin Bence a vezér, a pédakép</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding-top: 60px; 
+    background-color: #f5f8fa;
+    color: #222;
+    line-height: 1.6;
+  }
+  body {
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+ 
+  .top-menu {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background-color: #0047ab; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 14px 20px;
+    z-index: 1000;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  }
+
+ 
+  .menu-links {
+    display: flex;
+    gap: 40px;
+    flex: 1;
+    justify-content: center;
+  }
+
+  .menu-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+
+  .menu-links a:hover,
+  .menu-links a:focus {
+    color: #ffd700; 
+    outline: none;
+  }
+
+  
+  .social-icons {
+    display: flex;
+    gap: 20px;
+  }
+
+  .social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background-color: #ffffff22; 
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+
+  .social-icons a:hover,
+  .social-icons a:focus {
+    background-color: #ffd700; 
+    outline: none;
+  }
+
+  .social-icons svg {
+    fill: white;
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Wikipédia szöveg */
+  #wiki {
+    max-width: 900px;
+    margin: 30px auto 50px auto;
+    background: white;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 0.1);
+    font-size: 1.15rem;
+  }
+
+  #wiki p {
+    margin-bottom: 1.3em;
+  }
+
+  
+  section {
+    max-width: 900px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 0.1);
+  }
+
+  section h2 {
+    color: #0047ab;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+  }
+  @media (max-width: 768px) {
+    section {
+      flex-direction: column !important;
+      align-items: center !important;
+    }
+
+    section img {
+      margin-top: 15px;
+      width: 100% !important;
+      max-width: 300px;
+      height: auto;
+    }
+
+    section div {
+      width: 100%;
+    }
+</style>
+</head>
+<body>
+
+  
+  <nav class="top-menu" aria-label="Főmenü">
+    <div class="menu-links">
+	<a href="#wiki">Wikipedia</a>
+      <a href="#serenyes">Szerénység és jószívűség</a>
+      <a href="#vezér">A párt vezére</a>
+      <a href="#szuverenitas">Szuveneritás védelem</a>
+      <a href="#volga">Fekete Volga</a>
+	   <a href="#versenyzo">Legenda</a>
+    </div>
+
+    <div class="social-icons" aria-label="Közösségi média linkek">
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/bencebalazsin" target="_blank" rel="noopener noreferrer" title="Instagram">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 2A3.75 3.75 0 004 7.75v8.5A3.75 3.75 0 007.75 20h8.5a3.75 3.75 0 003.75-3.75v-8.5A3.75 3.75 0 0016.25 4h-8.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 2a3 3 0 100 6 3 3 0 000-6zm4.5-2.25a1.25 1.25 0 112.5 0 1.25 1.25 0 01-2.5 0z"></path>
+        </svg>
+      </a>
+      <!-- YouTube -->
+      <a href="https://www.youtube.com/c/mirageeputoStreamek" target="_blank" rel="noopener noreferrer" title="YouTube">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M10 15l5.19-3L10 9v6zm11.54-3.01a3 3 0 01-2.11 2.12c-1.87.5-9.32.5-9.32.5s-7.45 0-9.32-.5a3 3 0 01-2.11-2.12 31.68 31.68 0 01-.01-3.98 3 3 0 012.11-2.11c1.88-.5 9.32-.5 9.32-.5s7.45 0 9.32.5a3 3 0 012.11 2.11 31.6 31.6 0 01.01 3.98z"></path>
+        </svg>
+      </a>
+      <!-- Twitch -->
+      <a href="https://www.twitch.tv/mirageeputo" target="_blank" rel="noopener noreferrer" title="Twitch">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M4 2L2 7v15h6v4l5-4h5a2 2 0 002-2V7a5 5 0 00-5-5H4zm11 7h2v5h-2V9zm-4 0h2v5h-2V9z"></path>
+        </svg>
+      </a>
+    </div>
+  </nav>
+
+  
+  <article id="wiki" tabindex="-1" aria-label="Balazsin Bence részletes életrajza">
+    <p><strong style="font-size: 2.2rem; color: #0047ab;">Balazsin Bence</strong> személye már-már a mítoszok világába vezet minket, ahol a valóság és a legendák határai összemosódnak. Az ő születési ideje máig ismeretlen, hiszen a hivatalos iratok hiányoznak, vagy talán sosem is készültek róla — ez is csak tovább fokozza a körülötte lévő misztikumot. Annyi azonban bizonyos, hogy Nagykanizsán látta meg a napvilágot, és már ott, a születése pillanatában is rendkívüli dolgok történtek.</p>
+
+    <p>A mendemondák szerint a kis Bence nem kért orvosi segítséget, hanem saját magának vágta el a köldökzsinórt, miközben az orvos csak döbbenten figyelte az eseményeket. Nem elég, hogy maga intézte ezt az első életmentő akciót, rögtön hívta a legendás fekete Volgát, hogy azonnal elszállítsa magát a pártfőhadiszállásra, ahol már kisbabaként is a legnagyobb titkokat készítették elő.</p>
+
+    <p>Az érdekességek sora azonban itt nem ér véget: Balazsin Bence édesanyját nem ő nevelte, hanem fordítva! Ez a szokatlan dinamika is azt mutatja, milyen korán megmutatkozott benne az uralkodói természet és az irányítás ösztöne.</p>
+
+    <p>Három éves korára már tárgyalt Vlagyimir Putyinnal az atomrakéták kulcsairól, amikor a világ még csak ismerkedett az orosz vezetővel. Ezt követően Donald Trumpot is megfenyegette, még mielőtt az Egyesült Államok elnökévé vált volna, így minden nagyhatalom titkon retteg Balazsin Bence vasmarkú tekintetétől és határozott szavától.</p>
+
+    <p>A történetek szerint egy alkalommal egyszerűen eltörölt egy egész Twitter-fiókot, csupán mert nem értett egyet egy bejegyzéssel. Máskor meg egyetlen pillantásával békét teremtett egy nemzetközi válságban, miközben a háttérben a fekete Volga nesztelenül várakozott, készen arra, hogy szükség esetén azonnal közbelépjen.</p>
+
+    <p>Nem csoda hát, hogy minden nagyhatalom titkon tiszteli és fél tőle, hiszen ő az a személy, aki képes megőrizni a párt függetlenségét, biztosítani a rendet, és akinek a neve már szinte egybeforrt a hatalommal, a bölcsességgel és a megalkuvást nem ismerő igazságossággal.</p>
+  </article>
+
+  
+  <section id="serenyes" tabindex="-1" style="border: 2px solid black; border-radius: 8px; padding: 20px; display: flex; gap: 20px; align-items: flex-start;">
+  <div style="flex: 1;">
+    <h2>1. A szerénység és jószívűség megtestesítője</h2>
+    <p>Balazsin Bence azon ritka emberek egyike, akik szinte láthatatlanul, de annál erőteljesebben formálják környezetüket. Szerénysége nem csupán viselkedés, hanem egyfajta csendes nagyság, amely mögött hatalmas tudás, belső erő és mély emberség rejlik. Bármit tesz, azt mindig mások javára, sosem a saját dicsősége érdekében. Segítőkészsége határtalan, legyen szó apró figyelmességről vagy komoly támogatásról — mindig jelen van, ha szükség van rá. Ez a jószívűség az a láthatatlan fonal, amely összeköti a közösséget, és szerencsésnek érezhetjük magunkat, hogy ismerhetjük.</p>
+  </div>
+  <img src="Bala1.png" alt="Szerénység és jószívűség" style="width: 250px; border-radius: 8px;" />
+</section>
+
+  <section id="vezér" tabindex="2" style="border: 2px solid black; border-radius: 8px; padding: 20px; display: flex; gap: 20px; align-items: flex-start;">
+  <div style="flex: 1;">
+    <h2>2. A párt vezére – a vezér, akit mindenki istenít</h2>
+    <p>Ő a párt egyetlen, megkérdőjelezhetetlen vezére, akinek szavát minden tag tiszteletben tartja. Nem csupán vezető, hanem egyfajta szent figura, akit tisztelet és szeretet övez. Minden döntésében a párt érdekeit helyezi előtérbe, s mindemellett olyan karizmatikus személyiség, aki képes összefogni és irányítani a közösséget. A vezéri szerep számára nem külső elvárások, hanem belső meggyőződés határoz meg. Amikor vihar támad, ő a szikla, amely megtartja a közösséget. A biztonság és stabilitás élő szimbóluma, akire mindig számíthatunk.</p>
+  </div>
+  <img src="Bala2.png" alt="Vezér portré" style="width: 250px; border-radius: 8px;" />
+</section>
+
+  <section id="szuverenitas" tabindex="3" style="border: 2px solid black; border-radius: 8px; padding: 20px; display: flex; gap: 20px; align-items: flex-start;">
+  <div style="flex: 1;">
+    <h2>3. Szuveneritás védelem – a párt semlegességének őre</h2>
+    <p>Balazsin Bence áldozatos munkája az, hogy a párt megőrizze szuveneritását és semlegességét a külső befolyásokkal szemben. Ő az, aki biztosítja, hogy a közösség tiszta maradjon, nem engedve be olyan erőket, amelyek megoszthatnák vagy gyengíthetnék az összetartást. Védelmezőként áll a párt határain, s minden eszközt bevet, hogy megőrizze a függetlenséget. Ez nem csupán egy hivatal, hanem egy életfilozófia, amelyet ő személyesen képvisel. Balazsin Bence nélkül a párt nem lenne az, ami – ő az a garancia, hogy a közösség egységes és erős marad.</p>
+  </div>
+  <img src="Bala3.png" alt="Szuveneritás őre" style="width: 250px; border-radius: 8px;" />
+</section>
+
+<section id="volga" tabindex="4" style="border: 2px solid black; border-radius: 8px; padding: 20px; display: flex; gap: 20px; align-items: flex-start;">
+  <div style="flex: 1;">
+    <h2>4. A fekete Volga – a tisztaság őrzője</h2>
+    <p>A fekete Volga nem csupán egy jármű – hanem egy jelképe annak, hogy Balazsin Bence őrködik a párt tisztasága felett. Azok, akik méltók a pártba való belépésre, azt nemcsak szavakkal, hanem tettekkel is bizonyítják. A Volga suttogva, de határozottan közlekedik a sorok között – s miközben sokak számára rejtély, a beavatottak tudják: ez az eszköz, amely révén a pártba csak azok juthatnak be, akik valóban megérdemlik. Bence így biztosítja, hogy közösségünk sosem szenvedjen morális vagy erkölcsi hanyatlást. Az igazság, a méltóság és a szigorú erkölcsi rend gurul a kerekeken, egy fekete testben, amely nem fenyeget – csak jelen van. És mindenki tudja: akit a fekete Volga hoz, az valóban a párt tagja. Akit nem, az kívül marad.</p>
+  </div>
+  <img src="Bala4.png" alt="Fekete Volga" style="width: 250px; border-radius: 8px;" />
+</section>
+
+<section id="versenyzo" tabindex="5" style="border: 2px solid black; border-radius: 8px; padding: 20px; display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 300px;">
+    <h2>5. A versenypályák királya – Balazsin Bence, akit még a legendák is tisztelnek</h2>
+    <p>Balazsin Bence nem csupán egy kiváló elme, politikai zsenialitással megáldva, hanem egy olyan versenyző is, akinek neve csak suttogva hangzik el a paddockban – a tisztelet miatt. Az aszfalt Bence alatt nemcsak engedelmeskedik, hanem énekel. Ő az a pilóta, aki nem azért ül volán mögé, hogy nyerjen – hanem hogy tanítson. És tanít is: kanyaríven, gumikopáson, stratégián és elegancián keresztül.</p>
+
+    <p>Az egyik legendás eset során Bence fél kézzel vezetve, a másikkal kávét kortyolgatva előzte meg Michael Schumachert a Hungaroringen. Az egész világ tombolt – de ő a dobogóra sem ment fel. “Nem a győzelemért jöttem. Csak meg akartam érezni a gumik tapadását,” – mondta halkan, miközben a paddockban Alonso diszkréten tapsolt neki hátul, sisakban, hogy ne lássák.</p>
+
+    <p>Egy másik emlékezetes pillanatban Bence boxutcán kívül cserélt kereket, puszta kézzel. Fernando Alonso csak annyit mondott a rádióba: “Ez nem ember. Ez… valami más.” Az FIA akkorra már meg se próbálta szabályozni őt – egyszerűen elfogadták, hogy Balazsin Bencére nem vonatkoznak a fizikai törvények.</p>
+
+    <p>És ott van a híres eset Sebastian Vettellel: amikor Bence beugrott egy versenyre, és a leintés után kiderült, hogy végig 3 sebességi fokozatban vezette az autót , mert “úgy legalább volt esélye a többieknek”. Vettel a célban kiszállt és oda ment Bencéhez „Négy világbajnoki címem van. De ha ő akkoriban versenyzett volna, a kockás zászlót sem láttam volna meg.” Aztán letette a sisakját a földre és odaadta mind a 4 címét. Balazsin szerénységéről árulkodik, hogy nem fogadta el, csak ennyit mondott "2>4"</p>
+
+  </div>
+  <img src="Bala5.png" alt="Balazsin Bence versenyben" style="width: 250px; border-radius: 8px; max-height: 500px; object-fit: cover;" />
+</section>
+
+
+
+</body>
+</html>
